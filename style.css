@@ -276,9 +276,9 @@ body {
     }
 
     .container {
-        width: 90%;
+        width: 100%;
         max-width: 400px;
-        /* height: auto; */
+        height: 120px;
     }
 
     .search-box input {
@@ -295,44 +295,24 @@ body {
         padding: 0 35px 0 5px;
     }
 
+    .weather-box img {
+        padding-top: 39px;
+    }
+
     .weather-box .temperature {
         font-size: 50px;
         margin: 10px 0 5px -20px;
     }
 
     .weather-details span {
-        font-size: 20px;
+        font-size: 18px;
+        padding-bottom: 5px;
+        
     }
+
 
     .not-found img {
         width: 80%;
     }
 }
 
-@media screen and (max-width: 480px) {
-    body {
-        transform: scale(0.7);
-    }
-
-    .container {
-        width: 100%;
-        height: auto;
-        padding: 15px;
-    }
-
-    .search-box input {
-        font-size: 16px;
-    }
-
-    .weather-box .temperature {
-        font-size: 40px;
-    }
-
-    .weather-details span {
-        font-size: 24px;
-    }
-
-    .not-found p {
-        font-size: 18px;
-    }
-}
